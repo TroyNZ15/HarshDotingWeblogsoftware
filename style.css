@@ -16,7 +16,7 @@ body {
   text-align: center;
   padding: 22px 22px;
   text-decoration: underline;
-  font-size: 23px;
+  font-size: 30px;
   margin-left: 5%;
 }
 
@@ -43,17 +43,18 @@ body {
 
 .linkers {
    color:white; 
-  text-align:left;
+   /* text-align:left; */
   /* padding: 1px 275px; */
   font-style:none; 
   margin-left: 40%;
   font-size: 26px;
+  
 }
 
 .box {
   padding-top: 5%;
   display: flex;
-  width: 100%;
+  width: 60%;
   height: 40%;
   margin-top: 10%;
   transform: translateX(20%);
@@ -61,10 +62,63 @@ body {
 
 /* copied */
 .BOX {
-  width: 200px;
+  width: 400px;
   height: 100px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   padding: 10px;
   margin: 10px;
-  transform: translateX(20%);
+  transform: translateX(10%);
+  color: white;
+  font-size: 20px;
+}
+
+/* section1. { */
+  /* text-align: left; */
+/* } */
+
+.hr {
+  width: 90%;
+  height: 3%
+  
+}
+
+.BOX2 {
+  width: 800px;
+  height: 300px;
+  /* border: 1px solid white; */
+  padding: 10px;
+  margin: 10px;
+  transform: translateX(5%);
+   color: white;
+  font-size: 20px;
+}
+
+.tester {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+.BOX3 {
+  width: 400px;
+  height: 100px;
+  /* border: 1px solid white; */
+  padding: 10px;
+  margin: 10px;
+  transform: translateX(10%);
+   color: white;
+  font-size: 20px;
+}
+
+.BOX4 {
+  width: 400px;
+  height: 100px;
+  /* border: 1px solid white; */
+  padding: 10px;
+  margin: 10px;
+  transform: translateX(10%);
+   color: white;
+  font-size: 20px;
 }
